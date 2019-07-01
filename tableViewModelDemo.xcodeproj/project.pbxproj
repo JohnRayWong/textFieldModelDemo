@@ -13,7 +13,6 @@
 		4564A7CB1EF6B01E000C4ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564A7C91EF6B01E000C4ECC /* Main.storyboard */; };
 		4564A7CD1EF6B01E000C4ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4564A7CC1EF6B01E000C4ECC /* Assets.xcassets */; };
 		4564A7D01EF6B01E000C4ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564A7CE1EF6B01E000C4ECC /* LaunchScreen.storyboard */; };
-		459111531EF6BC590074A11A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 459111391EF6BC590074A11A /* Info.plist */; };
 		459111541EF6BC590074A11A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4591113B1EF6BC590074A11A /* MASCompositeConstraint.m */; };
 		459111551EF6BC590074A11A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4591113E1EF6BC590074A11A /* MASConstraint.m */; };
 		459111561EF6BC590074A11A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 459111401EF6BC590074A11A /* MASConstraintMaker.m */; };
@@ -39,7 +38,6 @@
 		4564A7CC1EF6B01E000C4ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4564A7CF1EF6B01E000C4ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4564A7D11EF6B01E000C4ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		459111391EF6BC590074A11A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4591113A1EF6BC590074A11A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4591113B1EF6BC590074A11A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		4591113C1EF6BC590074A11A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 		459111381EF6BC590074A11A /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				459111391EF6BC590074A11A /* Info.plist */,
 				4591113A1EF6BC590074A11A /* MASCompositeConstraint.h */,
 				4591113B1EF6BC590074A11A /* MASCompositeConstraint.m */,
 				4591113C1EF6BC590074A11A /* MASConstraint+Private.h */,
@@ -211,6 +208,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -229,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459111531EF6BC590074A11A /* Info.plist in Resources */,
 				4564A7D01EF6B01E000C4ECC /* LaunchScreen.storyboard in Resources */,
 				4564A7CD1EF6B01E000C4ECC /* Assets.xcassets in Resources */,
 				4564A7CB1EF6B01E000C4ECC /* Main.storyboard in Resources */,

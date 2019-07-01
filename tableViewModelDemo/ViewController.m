@@ -112,9 +112,9 @@
             //监听textField输入
             [cell textFieldAddObserver:self selector:@selector(textFieldValueChange:)];
         }
-        
-        cell.formDict = self.formDict;
+                
         cell.creatTableModel = model;
+        cell.formDict = self.formDict;
         return cell;
         
     }
